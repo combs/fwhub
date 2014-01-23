@@ -1,4 +1,4 @@
-<script>
+ 
 function initVisual() {
 	$(".promo_collection > ul > li").each(function(i){
 	
@@ -146,5 +146,3 @@ $('.bigthree').ready(function(){
 
 
 
-
-</script>
