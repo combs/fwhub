@@ -91,7 +91,7 @@ function filterOn(tag){
     });
 }
 
-$(document).ready(function(){
+$('.bigthree').ready(function(){
 	
 	$("#page_head h1.geocore_head").html("Freshwater").animate({
 		opacity: 1
