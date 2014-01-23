@@ -1,0 +1,225 @@
+<style type="text/css">
+
+body {
+	font-size: 16px;
+	font-size: 100%;
+}
+
+a, a:hover {
+	text-decoration: none;	
+}
+
+#body_wrap {
+	background: #efefef !important;
+}
+
+#container * {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#container *:focus { 
+    outline: none; 
+}
+
+#container {
+	padding: 0;
+	width: 990px;
+}
+
+#content > div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#content div.general {
+	margin: 0 15px 30px 15px;
+	padding-left: 3px;
+}
+
+#content div.general > ul.nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#content div.general > ul.nav > li > a {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+	color: #444444;
+}
+
+#content #splash-container {
+	
+}
+
+#jqb_object div.hero-slide-container {
+    width: 100% !important;
+}
+
+#jqb_object div.hero-slide-container div.hero-slide-container-inner div.overlay {
+	background: transparent;
+	height: auto;
+	padding-bottom: 15px;
+}
+
+#jqb_object div.hero-slide-container div.hero-slide-container-inner div.overlay h2 {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 60px;
+	font-size: 3.75rem;
+	line-height: 1.06;
+	font-weight: bold;
+	margin: 0px 15px 8px;
+}
+
+#jqb_object div.hero-slide-container div.hero-slide-container-inner div.overlay p {
+	font-family: "minion-pro-display","Georgia","Times New Roman","Times",serif;
+	padding-left: 5px;
+}
+
+#page_head {
+	border: 0;
+	padding: 15px;
+	height: 80px;
+	margin-bottom: 12px;
+}
+
+#page_head h1.geocore_head {
+	background-image: none !important;
+	text-indent: 0 !important;
+	opacity: 0;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	margin: 0;
+	
+	font-size: 48px;
+	font-size: 3rem;
+}
+
+.advertisement img {
+	margin-right: 15px;
+}
+
+.filter {
+	margin: 15px;
+}
+
+.filter > select {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	background: url(http://images.nationalgeographic.com/wpf/media-live/file/arrow-cb1390424212.png) no-repeat right #888888;
+	color: #ffffff;
+	border: 0;
+	border-radius: 0;
+	width: 200px;
+	height: 40px;
+	line-height: 1;
+	padding: 5px 15px;
+	-webkit-appearance: none;
+	cursor: pointer;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-timing-function: ease-in-out;
+/* 	border: 1px solid #ccc; */
+}
+
+.promo_collection.bigthree .horizontal li {
+	width: 330px;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 !important;
+}
+
+.promo_collection.bigthree .horizontal li img {
+/* 	width: 100%; */
+	width: 330px !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
+
+.promo_collection li > * {
+	display: inline-block;
+}
+
+.promo_collection li.adbox {
+	background: #444444;
+	padding-top: 15px;
+}
+
+.promo_collection li > .advertisement.box {
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+.promo_collection li > .advertisement.box > div {
+	padding: 15px 0;
+}
+
+.promo_collection li > .section-title {
+	margin: 15px 15px 5px 15px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	display: block;
+	color: #888888;
+}
+
+.promo_collection li > h4 {
+	font-size: 20px;
+	font-size: 1.25rem;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+
+.promo_collection li > h4 a {
+	display: block;
+	margin: 0 15px;
+}
+
+.promo_collection li > p {
+	display: block;
+	margin: 30px 15px 15px 15px;
+	font-family: "minion-pro-display","Georgia","Times New Roman","Times",serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.promo_collection li > .tags {
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.promo_collection li > .tags > .tag-item {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 2px 0;
+/* 	background: rgba(57, 67, 58, 0.5); #39433A */
+	color: #000000;
+	text-transform: uppercase;
+}
+
+#footer_breadcrumb p.nav1, #footer_breadcrumb ul {
+	height: 22px;
+	line-height: 20px;
+}
+
+.hidden {
+	display: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+
+
+</style>
