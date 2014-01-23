@@ -14,8 +14,8 @@ function initVisual() {
 			var _dom = "";
 			
 			for (i = 0; i < tags.length; i++) {
-				_dom += "<div class='tag-item'>"+tags[i].replace(/-/g," ");
-				_dom += (i === tags.length -1) ? "</div>" : ",</div>";
+				_dom += "<a class='tag-item' href='#" + tags[i] + "'>"+tags[i].replace(/-/g," ");
+				_dom += (i === tags.length -1) ? "</a>" : ",</a>";
 			}
 			
 			$(this).children("h4").after("<div class='tags'>"+_dom+"</div>");
@@ -41,6 +41,18 @@ function initVisual() {
 			$(this).children("h4").before("<div class='section-title'>"+section+"</div>");
 		}
 	});
+	$("a.tag-item").each(function(i){
+	$(this).click(function(){ 
+		window.location.href = "#" + $(this).attr("href");
+		if(window.location.hash != "")
+			filterOn($(this).attr("href").replace(/#/,""));
+		
+		initVisual();
+		
+	});
+		
+	});
+	
 }
 
 function sortInt(a,b){  
