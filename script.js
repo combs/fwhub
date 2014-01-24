@@ -41,18 +41,6 @@ function initVisual() {
 			$(this).children("h4").before("<div class='section-title'>"+section+"</div>");
 		}
 	});
-	$("a.tag-item").each(function(i){
-	$(this).click(function(){ 
-		window.location.href = "#" + $(this).attr("href");
-		if(window.location.hash != "")
-			filterOn($(this).attr("href").replace(/#/,""));
-		
-		initVisual();
-		
-	});
-		
-	});
-	
 }
 
 function sortInt(a,b){  
@@ -120,6 +108,14 @@ $('.bigthree').ready(function(){
 	}
 
 	initVisual();
+	
+	$("a.tag-item").click(function(){ 
+		window.location.href = "#" + $(this).attr("href");
+		if(window.location.hash != "")
+			filterOn($(this).attr("href").replace(/#/,""));
+		
+		initVisual();
+	});
 	
 	$(".filter > select").change(function(){
 /*
