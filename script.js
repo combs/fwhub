@@ -113,7 +113,7 @@ $('.bigthree').ready(function(){
 		window.location.href = "#" + $(this).attr("href");
 		if(window.location.hash != "")
 			filterOn($(this).attr("href").replace(/#/,""));
-		
+			$(".filter select").val($(this).attr("href").replace(/#/,""));
 		initVisual();
 	});
 	
