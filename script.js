@@ -14,7 +14,7 @@ function initVisual() {
 			var _dom = "";
 			
 			for (i = 0; i < tags.length; i++) {
-				_dom += "<a class='tag-item' href='#" + tags[i] + "'>"+tags[i].replace(/-/g," ");
+				_dom += "<a class='tag-item' href='#" + tags[i].trim() + "'>"+tags[i].replace(/-/g," ");
 				_dom += (i === tags.length -1) ? "</a>" : ",</a>";
 			}
 			
@@ -48,6 +48,7 @@ function sortInt(a,b){
 };
     
 function filterOn(tag){
+	tag=tag.trim();
 	$('.bigthree li').each(function(indx, promo){
 		if(!$(promo).hasClass('adbox')){
 			if($(promo).data('pos') == undefined) $(promo).data('pos',indx+1);
