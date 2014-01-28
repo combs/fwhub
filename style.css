@@ -138,6 +138,11 @@ a, a:hover {
 	position: relative;
 	margin: 0 !important;
 }
+.promo_collection.bigthree .horizontal li img {
+	/* for ads, fix 125th bug */
+	width: auto;
+	height: auto;
+}
 
 .promo_collection.bigthree .horizontal li > a > img {
 /* 	width: 100%; */
