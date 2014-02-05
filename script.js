@@ -24,7 +24,7 @@ function initVisual() {
 		if ($(this).children("a").attr("href") !== undefined && $(this).children(".section-title").length <= 0) {
 			var url=$(this).children("a").attr("href");
 			var section = "";
-			if (url.indexOf("/news/") > -1 || url.indexOf("news.nationalgeographic.com") > -1) {
+			if (url.indexOf("/news/") == 0 || url.indexOf("news.nationalgeographic.com") > -1) {
 				section = "Daily News";
 			} else if (url.indexOf("newswatch.nationalgeographic.com") > -1) {
 				section="Water Currents";
@@ -32,7 +32,7 @@ function initVisual() {
 				section = "Video";
 			} else if (url.indexOf("ngm.nationalgeographic.com") > -1) {
 				section = "Magazine";
-			} else if ( (url.indexOf("environment.nationalgeographic.com") > -1) || (url.indexOf(".com/125/") > -1)  || (url.indexOf(".com/features/") > -1) ) {
+			} else if ( (url.indexOf("environment.nationalgeographic.com") > -1) || (url.indexOf(".com/125/") > -1)  || (url.indexOf(".com/features/") > -1) || (url.indexOf("/environment/") == 0 ) ) {
 				section = "Feature";
 			} else {
 				section = "&nbsp;"
