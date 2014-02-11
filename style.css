@@ -28,35 +28,17 @@ a, a:hover {
 	padding: 0;
 	width: 990px;
 }
-
-#content > div {
-	margin: 0;
-	padding: 0;
-	border: 0;
+ 
+#page_head { 	
+	padding: 15px;
 }
+
 
 #content div.general {
-	margin: 0 15px 30px 15px;
-	padding-left: 3px;
-}
-
-#content div.general > ul.nav {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-#content div.general > ul.nav > li > a {
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	font-size: 14px;
-	font-size: 0.875rem;
-	color: #444444;
-}
-
-#content #splash-container {
 	
+	margin: 0 15px 30px 15px;
 }
-
+ 
 #jqb_object div.hero-slide-container {
     width: 100% !important;
 }
@@ -79,25 +61,6 @@ a, a:hover {
 #jqb_object div.hero-slide-container div.hero-slide-container-inner div.overlay p {
 	font-family: "minion-pro-display","Georgia","Times New Roman","Times",serif;
 	padding-left: 5px;
-}
-
-#page_head {
-	border: 0;
-	padding: 15px;
-	height: 80px;
-	margin-bottom: 12px;
-}
-
-#page_head h1.geocore_head {
-	background-image: none !important;
-	text-indent: 0 !important;
-	opacity: 0;
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	font-weight: bold;
-	margin: 0;
-	
-	font-size: 48px;
-	font-size: 3rem;
 }
 
 .advertisement img {
@@ -236,64 +199,6 @@ a, a:hover {
 
 
 
-.pledge-area {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: #4e5b4f;
-	color: #ffffff;
-}
-
-.pledge-area > div {
-	float: left;
-	padding: 15px;
-}
-
-.pledge-area > .title > h2 {
-	font-size: 16px;
-	font-size: 1rem;
-	font-weight: bold;
-}
-
-.pledge-area a {
-	color: #FFCC00;
-}
-
-.pledge-area > .pledge-button {
-	float: right;
-}
-
-.pledge-area > .follow-button {
-	float: right;
-}
-
-.pledge-area > div > a {
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	display: inline-block;
-	margin-top: 1px;
-}
-
-.pledge-area > div > a:hover {
-	color: #ffffff;
-}
-
-
-/**
- * Micro Clearfix
- */
-.cf:before, .cf:after { content: ""; display: table; }
-.cf:after { clear: both; }
-.cf { zoom: 1; }
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
 
 
 </style>
