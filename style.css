@@ -10,7 +10,7 @@ a, a:hover {
 	text-decoration: none;	
 }
 
-#body_wrap {
+#body_wrap, body {
 	background: #efefef !important;
 }
 
